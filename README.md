@@ -14,7 +14,7 @@ There are other GEDCOM parsers, but it was easier to make my own.
 ### The Core Function
 
 The function that does the parsing and output is called loopGedWriteXML().  It is found in XmlLoad.as.  It is a recursive
-function that traverses the gedcom file, using parseLine() to read a one line at a time.
+function that traverses the gedcom file, using parseLine() to read one line at a time.
 
 ### Memory Idea
 
